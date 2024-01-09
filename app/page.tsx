@@ -1,10 +1,10 @@
-import { ModeToggle } from '@/components/darkmode-toggle'
+import { ThemeToggler } from '@/components/theme-toggler'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <main>
-      <ModeToggle/>
+      <ThemeToggler/>
     </main>
   )
 }
